@@ -25,7 +25,7 @@ const form = () => {
                         <div className="col-lg-12 lg:pt-[20px] pt-10px]">
                             <div>
                                 <label className="block mb-2 lg:text-[0.9vw] text-[3vw] font-[sb] text-gray-900 ">Phone</label>
-                                <input type="number" name="phone" id="phone" className="bg-gray-900/5 border border-gray-300 text-gray-900 text-sm rounded-1   block w-full p-2.5" placeholder="(123)-456-7890" required />
+                                <input type="text" name="phone" id="phone" className="bg-gray-900/5 border border-gray-300 text-gray-900 text-sm rounded-1   block w-full p-2.5" placeholder="(123)-456-7890" required />
                             </div>
 
                         </div>

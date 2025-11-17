@@ -161,7 +161,7 @@ export default function Home() {
                 <div className="row">
                     <div className="lg:flex items-center" >
                         <div className="col-lg-7 ">
-                            <Image src="/image/19.png" alt="logo" width={1830} height={750} />
+                            <Image src="/image/b1.png" alt="logo" width={1830} height={750} />
                         </div>
                         <div className="lg:px-[60px] px-[20px] col-lg-5">
                             <div className="flex lg:justify-end">
@@ -189,7 +189,7 @@ export default function Home() {
                             </div>
                         </div>
                         <div className="col-lg-5">
-                            <Image src="/image/20.png" alt="logo" width={1830} height={750} />
+                            <Image src="/image/b2.png" alt="logo" width={1830} height={750} />
                         </div>
                     </div>
                 </div>
