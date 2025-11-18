@@ -107,7 +107,7 @@ export default function Timeline() {
                         transition={{ duration: 0.4 }}
                     >
                         {/* DOT */}
-                        <div className="z-10 w-6 h-6 bg-blue-600 rounded-full border-4 border-white shadow absolute left-2"></div>
+                        <div className="z-10 w-6 h-6 bg-[#FFA800] rounded-full border-4 border-white shadow absolute left-2"></div>
 
                         {/* TEXT */}
                         <div className="ml-12">

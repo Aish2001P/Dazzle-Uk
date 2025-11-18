@@ -1,15 +1,4 @@
 {
-  "/_not-found/page": "app/_not-found/page.js",
   "/about/page": "app/about/page.js",
-  "/contact/page": "app/contact/page.js",
-  "/favicon.ico/route": "app/favicon.ico/route.js",
-  "/page": "app/page.js",
-  "/portfolio/page": "app/portfolio/page.js",
-  "/privacy-policy/page": "app/privacy-policy/page.js",
-  "/solutions/country/page": "app/solutions/country/page.js",
-  "/solutions/custom/page": "app/solutions/custom/page.js",
-  "/solutions/double-decker/page": "app/solutions/double-decker/page.js",
-  "/solutions/modular/page": "app/solutions/modular/page.js",
-  "/solutions/page": "app/solutions/page.js",
-  "/solutions/portable/page": "app/solutions/portable/page.js"
+  "/favicon.ico/route": "app/favicon.ico/route.js"
 }
