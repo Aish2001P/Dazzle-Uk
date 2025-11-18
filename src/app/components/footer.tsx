@@ -54,8 +54,7 @@ const footer = () => {
               <Link href="/"><p className=" lg:text-[0.8vw] text-[3vw] m-0 pb-2 text-black lg:pt-[0px] pt-[10px]">Home</p></Link>
               <Link href="/about"><p className=" lg:text-[0.8vw] text-[3vw] m-0 pb-2 text-black">About Us</p></Link>
               <Link href="/portfolio"><p className=" lg:text-[0.8vw] text-[3vw] m-0 pb-2 text-black">Portfolio</p></Link>
-              <Link href="/clients"><p className=" lg:text-[0.8vw] text-[3vw] m-0 pb-2 text-black">Clients</p></Link>
-              <Link href="/career"><p className=" lg:text-[0.8vw] text-[3vw] m-0 pb-2 text-black">Career</p></Link>
+              <Link href=""><p className=" lg:text-[0.8vw] text-[3vw] m-0 pb-2 text-black">Career</p></Link>
               <Link href="/privacy-policy"><p className=" lg:text-[0.8vw] text-[3vw] m-0 pb-2 text-black">Privacy Policy</p></Link>
               <Link href="/contact"><p className=" lg:text-[0.8vw] text-[3vw] m-0 pb-2 text-black">Contact Us</p></Link>
             </div>

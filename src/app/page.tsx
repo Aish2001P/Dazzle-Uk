@@ -7,6 +7,7 @@ import CountUp from './components/countup';
 import Footer from "../app/components/footer";
 
 
+
 export default function Home() {
   return (
     <>
@@ -416,7 +417,6 @@ export default function Home() {
           </div>
         </div>
       </section>
-
 
 
       <Footer />

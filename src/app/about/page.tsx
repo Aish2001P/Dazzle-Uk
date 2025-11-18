@@ -3,6 +3,7 @@ import React from "react";
 import Header from "../components/header";
 import Footer from "../components/footer";
 import CountUp from "../components/countup";
+import Timeline from "../components/timeline";
 
 export default function Home() {
     return (
@@ -115,7 +116,7 @@ export default function Home() {
                 </div>
             </section>
 
-            <section className="lg:px-[60px] px-[20px] overflow-hidden bg-[#F2F4F7] lg:pt-[60px] pt-[10px] lg:pb-[60px] pb-[10px]">
+            <section className="lg:px-[60px] px-[20px]  bg-[#F2F4F7] lg:pt-[60px] pt-[10px] lg:pb-[60px] pb-[10px]">
                 <div className="row">
                     <div className="col-lg-12">
                         <div className="flex justify-center">
@@ -129,29 +130,9 @@ export default function Home() {
                             </div>
                         </div>
 
-                        <div className="row lg:pt-[80px] pt-[10px] lg:pb-[20px] pb-[10px]">
-                            <div className="col-lg-3">
-                                <p className="lg:text-[2.5vw] text-[4vw] lg:leading-[3vw] leading-[5vw] text-[#000] lg:pt-[10px] pt-[10px] ">2010</p>
-                                <p className="lg:text-[0.9vw] text-[3vw] lg:leading-[1.4vw] leading-[4vw] text-[#000] lg:pt-[10px] pt-[10px] uppercase">Founded</p>
-
-                            </div>
-                            <div className="col-lg-3">
-                                <p className="lg:text-[2.5vw] text-[4vw] lg:leading-[3vw] leading-[5vw] text-[#000] lg:pt-[10px] pt-[10px] ">2015</p>
-                                <p className="lg:text-[0.9vw] text-[3vw] lg:leading-[1.4vw] leading-[4vw] text-[#000] lg:pt-[10px] pt-[10px] uppercase">Building Reputation</p>
-                            </div>
-                            <div className="col-lg-3">
-                                <p className="lg:text-[2.5vw] text-[4vw] lg:leading-[3vw] leading-[5vw] text-[#000] lg:pt-[10px] pt-[10px] ">2020</p>
-                                <p className="lg:text-[0.9vw] text-[3vw] lg:leading-[1.4vw] leading-[4vw] text-[#000] lg:pt-[10px] pt-[10px] uppercase">Expanding Horizons</p>
-                            </div>
-                            <div className="col-lg-3">
-                                <p className="lg:text-[2.5vw] text-[4vw] lg:leading-[3vw] leading-[5vw] text-[#000] lg:pt-[10px] pt-[10px] ">2025</p>
-                                <p className="lg:text-[0.9vw] text-[3vw] lg:leading-[1.4vw] leading-[4vw] text-[#000] lg:pt-[10px] pt-[10px] uppercase">Leading Today</p>
-                            </div>
+                        <div className=" lg:pt-[80px] pt-[10px] lg:pb-[20px] pb-[10px]">
+                            <Timeline />
                         </div>
-
-                        <Image className="w-full" src="/image/lineh.png" alt="logo" width={1830} height={750} />
-
-
                     </div>
                 </div>
 
