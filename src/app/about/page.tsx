@@ -138,13 +138,13 @@ export default function Home() {
 
             </section>
 
-            <section className="  overflow-hidden bg-[#121212] lg:pt-[60px] pt-[10px]  ">
+            <section className="  overflow-hidden bg-[#121212] lg:pt-[60px] pt-[40px]  lg:pb-[0px] pb-[20px]">
                 <div className="row">
                     <div className="lg:flex items-center" >
                         <div className="col-lg-7 ">
                             <Image src="/image/b1.png" alt="logo" width={1830} height={750} />
                         </div>
-                        <div className="lg:px-[60px] px-[20px] col-lg-5">
+                        <div className="lg:px-[60px] px-[20px] col-lg-5 lg:pt-[0px] pt-[40px]">
                             <div className="flex lg:justify-end">
                                 <div className="col-lg-10">
                                     <p className="lg:text-[1.1vw] text-[3vw] lg:leading-[1.8vw] leading-[4vw] text-[#fff] font-[sb]">OUR MISSION</p>
@@ -159,7 +159,7 @@ export default function Home() {
                 </div>
             </section>
 
-            <section className="  overflow-hidden bg-[#fff] lg:pt-[60px] pt-[10px]  ">
+            <section className="  overflow-hidden bg-[#fff] lg:pt-[60px] pt-[40px]  ">
                 <div className="row">
                     <div className="lg:flex items-center" >
                         <div className="lg:px-[60px] px-[20px] col-lg-7 ">
@@ -176,12 +176,12 @@ export default function Home() {
                 </div>
             </section>
 
-            <section className="lg:px-[60px] px-[20px]  overflow-hidden bg-[#121212] text-[#fff] lg:pt-[80px] pt-[10px] lg:pb-[100px] pb-[40px] ">
+            <section className="lg:px-[60px] px-[20px]  overflow-hidden bg-[#121212] text-[#fff] lg:pt-[80px] pt-[40px] lg:pb-[100px] pb-[40px] ">
 
 
                 <div className="col-lg-4">
                     <p className="lg:text-[0.9vw] text-[3vw] lg:leading-[1.4vw] leading-[4vw] uppercase ">Brand Collaborations</p>
-                    <p className="lg:text-[1.5vw] text-[4vw] lg:leading-[2vw] leading-[5vw]  uppercase font-[bo]">Esteemed Clients over the Years</p>
+                    <p className="lg:text-[1.5vw] text-[5vw] lg:leading-[2vw] leading-[6vw]  uppercase font-[bo]">Esteemed Clients over the Years</p>
                 </div>
                 <div className="col-lg-3">
                     <p className="lg:text-[0.9vw] text-[3vw] lg:leading-[1.4vw] leading-[4vw]  ">We're honored to have partnered with these reputable organizations on impactful events projects through the decades.</p>

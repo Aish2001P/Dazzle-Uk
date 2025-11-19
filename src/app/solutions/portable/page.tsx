@@ -8,7 +8,7 @@ export default function Home() {
     return (
         <>
             <Header />
-            <section className="lg:px-[60px] px-[20px] overflow-hidden bg-[#FCFBF5] lg:pt-[200px] pt-[90px]">
+            <section className="lg:px-[60px] px-[20px] overflow-hidden bg-[#FCFBF5] lg:pt-[200px] pt-[100px]">
                 <div className="row  ">
 
                     <div className="lg:px-[60px] px-[20px]  lg:pb-[60px] pb-[20px]">
@@ -58,9 +58,9 @@ export default function Home() {
 
                             <p className="lg:text-[0.9vw] text-[3vw] lg:leading-[1.4vw] leading-[4vw]  lg:pt-[10px] pt-[10px] lg:pb-[20px] pb-[10px]">At Dazzle Exhibitions & Events, we take pride in producing and finishing all artwork at our in-house manufacturing unit to ensure the highest quality standards. They are lightweight, designed for easy setup and breakdown, and have low shipping costs. Our pop-up displays are among the best in the market, with a reputation for high-quality and durability. We offer a comprehensive solution for all your exhibition needs, from design to setup. If you're looking for something unique or require assistance with portable exhibition displays, our experts will have the best solution for you. We strive to make the process as seamless and stress-free as possible for our clients. Contact our experienced team to access any information you may need regarding portable exhibition booths.</p>
 
-                            <button className="border !border-[#000] rounded-5 py-1.5 px-3 bg-[#000]">
+                            <button className="border !border-[#000] rounded-5 py-1.5 px-1 bg-[#000]">
                                 <div className="flex gap-2 items-center">
-                                    <p className="m-0 lg:text-[0.7vw] text-[2.8vw] lg:leading-[1.2vw] leading-[4vw] font-[sb] uppercase text-[#fff] ">GET FREE QUOTATION</p>
+                                    <p className="m-0 lg:text-[0.7vw] text-[2.8vw] lg:leading-[1.2vw] leading-[4vw] font-[sb] uppercase text-[#fff] lg:pl-3 pl-2">GET FREE QUOTATION</p>
                                     <Image className="lg:w-8 w-5" src="/image/whitearrow.svg" alt="logo" width={1830} height={750} />
                                 </div>
                             </button>

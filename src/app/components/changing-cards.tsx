@@ -88,9 +88,9 @@ export default function StandTabs() {
               <p className="lg:text-[0.9vw] text-[3vw] lg:leading-[1.4vw] leading-[4vw] text-[#000] lg:pb-[30px] pb-[10px]">{activeStand.num}</p>
               <h2 className="lg:text-[2vw] text-[5vw] lg:leading-[2.5vw] leading-[6vw]  font-[bo] mb-4 ">{activeStand.title}</h2>
               <p className="lg:text-[0.9vw] text-[3vw] lg:leading-[1.4vw] font-[me] leading-[4vw] text-[#000] lg:pb-[20px] pb-[10px] mb-8">{activeStand.description}</p>
-              <button className="border border-black rounded-5 py-1.5 px-3">
+              <button className="border border-black rounded-5 py-1.5 px-1">
                 <div className="flex gap-2 items-center">
-                  <p className="m-0 lg:text-[0.8vw] text-[2.8vw] lg:leading-[1.2vw] leading-[4vw] font-[sb]">LEARN MORE</p>
+                  <p className="m-0 lg:text-[0.8vw] text-[2.8vw] lg:leading-[1.2vw] leading-[4vw] font-[sb] lg:pl-3 pl-2">LEARN MORE</p>
                   <Image className="lg:w-8 w-5" src="/image/arrow.svg" alt="logo" width={1830} height={750} />
                 </div>
               </button>

@@ -56,9 +56,9 @@ const form = () => {
                                 whileTap={{ scale: 0.95 }}
                                 transition={{ duration: 0.3 }}
                                 disabled={isSubmitting}
-                                className={`border  text-[#fff] bg-[#000] font-medium  text-sm  py-2 px-4 text-center items-center ${isSubmitting ? 'opacity-70 cursor-not-allowed' : ''
+                                className={`border  text-[#fff] bg-[#000] font-medium  text-sm  py-2 px-4 rounded-5 text-center items-center ${isSubmitting ? 'opacity-70 cursor-not-allowed' : ''
                                     }`}>
-                                {isSubmitting ? 'Sending...' : 'Request Free Estimate'}
+                                {isSubmitting ? 'Sending...' : 'Submit'}
                             </motion.button>
                         </div>
                     </div>

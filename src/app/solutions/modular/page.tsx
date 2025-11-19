@@ -8,7 +8,7 @@ export default function Home() {
     return (
         <>
             <Header />
-            <section className="lg:px-[60px] px-[20px] overflow-hidden bg-[#FCFBF5] lg:pt-[200px] pt-[90px]">
+            <section className="lg:px-[60px] px-[20px] overflow-hidden bg-[#FCFBF5] lg:pt-[200px] pt-[100px]">
                 <div className="row  ">
 
                     <div className="lg:px-[60px] px-[20px]  lg:pb-[60px] pb-[20px]">
@@ -58,9 +58,9 @@ export default function Home() {
 
                             <p className="lg:text-[0.9vw] text-[3vw] lg:leading-[1.4vw] leading-[4vw]  lg:pt-[10px] pt-[10px] lg:pb-[20px] pb-[10px]">Modular display stands are an excellent choice for those looking to assemble their own exhibition stand. Modular Exhibition Stands are able to provide complete flexibility in terms of the design and finish of your exhibition stand. They are lightweight and easy to transport, fitting into most vehicles. Simply tell us when and where you need the stand, and we'll take care of the rest with our immaculate range of modular options. These stands also come with a compact storage unit to minimize costs. The modular design allows for versatility and adaptability to various floor plans, resulting in a high return on investment. Fill out our modular display stands requirements form and let our team find the perfect fit for you.</p>
 
-                            <button className="border !border-[#000] rounded-5 py-1.5 px-3 bg-[#000]">
+                            <button className="border !border-[#000] rounded-5 py-1.5 px-1 bg-[#000]">
                                 <div className="flex gap-2 items-center">
-                                    <p className="m-0 lg:text-[0.7vw] text-[2.8vw] lg:leading-[1.2vw] leading-[4vw] font-[sb] uppercase text-[#fff] ">GET FREE QUOTATION</p>
+                                    <p className="m-0 lg:text-[0.7vw] text-[2.8vw] lg:leading-[1.2vw] leading-[4vw] font-[sb] uppercase text-[#fff] lg:pl-3 pl-2">GET FREE QUOTATION</p>
                                     <Image className="lg:w-8 w-5" src="/image/whitearrow.svg" alt="logo" width={1830} height={750} />
                                 </div>
                             </button>

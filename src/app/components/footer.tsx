@@ -15,9 +15,9 @@ const footer = () => {
           </div>
           <div className="col-lg-3 lg:pb-[50px] pb-[20px]">
             <p className="lg:text-[1vw] text-[3vw] lg:leading-[1.3vw] leading-[4vw] lg:pt-[0px] pt-[5px] lg:pb-[10px] pb-[0px] text-[#707070]">Become a member now and start your journey  toward mastering the perfect swing!</p>
-            <button className="border !border-[#000] rounded-5 py-1.5 px-3">
+            <button className="border !border-[#000] rounded-5 py-1.5 px-1">
               <div className="flex gap-2 items-center">
-                <p className="m-0 lg:text-[0.7vw] text-[2.8vw] lg:leading-[1.2vw] leading-[4vw] font-[sb] ">GET IN TOUCH</p>
+                <p className="m-0 lg:text-[0.7vw] text-[2.8vw] lg:leading-[1.2vw] leading-[4vw] font-[sb] lg:pl-3 pl-2">GET IN TOUCH</p>
                 <Image className="lg:w-8 w-5" src="/image/arrow.svg" alt="logo" width={1830} height={750} />
               </div>
             </button>

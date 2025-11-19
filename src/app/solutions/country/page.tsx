@@ -8,7 +8,7 @@ export default function Home() {
     return (
         <>
             <Header />
-            <section className="lg:px-[60px] px-[20px] overflow-hidden bg-[#FCFBF5] lg:pt-[200px] pt-[90px]">
+            <section className="lg:px-[60px] px-[20px] overflow-hidden bg-[#FCFBF5] lg:pt-[200px] pt-[100px]">
                 <div className="row  ">
 
                     <div className="lg:px-[60px] px-[20px]  lg:pb-[60px] pb-[20px]">
@@ -58,9 +58,9 @@ export default function Home() {
 
                             <p className="lg:text-[0.9vw] text-[3vw] lg:leading-[1.4vw] leading-[4vw]  lg:pt-[10px] pt-[10px] lg:pb-[20px] pb-[10px]">Designing a country pavilion stand is a delicate task that demands meticulous attention to detail and prudent planning. We specialize in designing unique and modern country pavilion exhibits. Utilizing simple 3D-letter volumes, we create dynamic and informative displays that showcase the best of the represented country and its exhibitors. With over 10-12 years of experience in the exhibition industry, we stay up-to-date on the latest trends and know how to build exhibits that instill confidence in visitors. Check out some sample for design ideas and inspiration. For any future exhibiting plans, don't hesitate to contact us directly.</p>
 
-                            <button className="border !border-[#000] rounded-5 py-1.5 px-3 bg-[#000]">
+                            <button className="border !border-[#000] rounded-5 py-1.5 px-1 bg-[#000]">
                                 <div className="flex gap-2 items-center">
-                                    <p className="m-0 lg:text-[0.7vw] text-[2.8vw] lg:leading-[1.2vw] leading-[4vw] font-[sb] uppercase text-[#fff] ">GET FREE QUOTATION</p>
+                                    <p className="m-0 lg:text-[0.7vw] text-[2.8vw] lg:leading-[1.2vw] leading-[4vw] font-[sb] uppercase text-[#fff] lg:pl-3 pl-2">GET FREE QUOTATION</p>
                                     <Image className="lg:w-8 w-5" src="/image/whitearrow.svg" alt="logo" width={1830} height={750} />
                                 </div>
                             </button>

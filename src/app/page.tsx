@@ -5,10 +5,13 @@ import Header from "./components/header";
 import Card from "./components/changing-cards";
 import CountUp from './components/countup';
 import Footer from "../app/components/footer";
+import Marquee from "../app/components/moving-gallery";
 
 
 
 export default function Home() {
+
+
   return (
     <>
       <Header />
@@ -24,9 +27,9 @@ export default function Home() {
                 </div>
                 <div className="col-lg-7">
                   <p className="lg:text-[1vw] text-[3vw] lg:leading-[1.5vw] leading-[4vw] lg:pt-[0px] pt-[5px] lg:pb-[10px] pb-[0px] text-[#707070]">We've built our reputation by taking even the boldest visions and making them achievable realities </p>
-                  <button className="border !border-[#000] rounded-5 py-1.5 px-3">
+                  <button className="border !border-[#000] rounded-5 py-1.5 px-1  ">
                     <div className="flex gap-2 items-center">
-                      <p className="m-0 lg:text-[0.7vw] text-[2.8vw] lg:leading-[1.2vw] leading-[4vw] font-[sb] ">GET IN TOUCH</p>
+                      <p className="m-0 lg:text-[0.7vw] text-[2.8vw] lg:leading-[1.2vw] leading-[4vw] font-[sb] lg:pl-3 pl-2">GET IN TOUCH</p>
                       <Image className="lg:w-8 w-5" src="/image/arrow.svg" alt="logo" width={1830} height={750} />
                     </div>
                   </button>
@@ -108,9 +111,9 @@ export default function Home() {
             <div className="col-lg-7 lg:pt-[20px] pt-[20px] ">
               <p className="lg:text-[2.5vw] text-[5.5vw] lg:leading-[3vw] leading-[6vw]  font-[bo]">Numbers that speak for themselves.</p>
               <p className="lg:text-[0.9vw] text-[3vw] lg:leading-[1.4vw] leading-[4vw]  lg:pt-[15px] pt-[0px] ">Our work goes beyond beautiful events — it&apos;s about delivering results our clients can see and feel.</p>
-              <button className="border !border-[#fff] rounded-5 py-1.5 px-3">
+              <button className="border !border-[#fff] rounded-5 py-1.5 px-1">
                 <div className="flex gap-2 items-center">
-                  <p className="m-0 lg:text-[0.7vw] text-[2.8vw] lg:leading-[1.2vw] leading-[4vw] font-[sb] ">READ MORE</p>
+                  <p className="m-0 lg:text-[0.7vw] text-[2.8vw] lg:leading-[1.2vw] leading-[4vw] font-[sb] lg:pl-3 pl-2">READ MORE</p>
                   <Image className="lg:w-8 w-5" src="/image/whitearrow.svg" alt="logo" width={1830} height={750} />
                 </div>
               </button>
@@ -187,9 +190,9 @@ export default function Home() {
           <div className="lg:flex   lg:pb-[70px] pb-[30px]" >
             <div className="col-lg-7 ">
               <div className="flex lg:gap-3 gap-2 items-center">
-              <Image className="lg:w-5 w-3" src="/image/snow.svg" alt="logo" width={1830} height={750} />
-              <p className="lg:text-[1.2vw] text-[4vw] lg:leading-[2vw] leading-[4vw] text-[#707070] m-0 font-[sb]" >Our Expertise</p>
-            </div>
+                <Image className="lg:w-5 w-3" src="/image/snow.svg" alt="logo" width={1830} height={750} />
+                <p className="lg:text-[1.2vw] text-[4vw] lg:leading-[2vw] leading-[4vw] text-[#707070] m-0 font-[sb]" >Our Expertise</p>
+              </div>
             </div>
 
             <div className="col-lg-5">
@@ -243,7 +246,7 @@ export default function Home() {
               </div>
               <hr className="border !border-[#9A9A9A]"></hr>
 
-<hr className="border !border-[#9A9A9A]"></hr>
+              <hr className="border !border-[#9A9A9A]"></hr>
               <div className="bg-[#FCFBF5]  mb-4">
                 <div className="flex items-center">
                   <div className="col-lg-3 col-1  flex justify-center  items-center">
@@ -366,6 +369,10 @@ export default function Home() {
             </div>
           </div>
         </div>
+      </section>
+
+      <section className="lg:px-[60px] px-[20px]  overflow-hidden bg-[#121212] text-[#fff]  ">
+        <Marquee />
       </section>
 
       <section className="lg:px-[60px] px-[20px]  overflow-hidden bg-[#FFF] lg:pt-[60px] pt-[30px] lg:pb-[60px] pb-[40px] ">
